@@ -32,7 +32,7 @@ It includes:
 
 ##  Live Demo
 
-👉 [Try it live here](https://xDobbyyy.github.io/random-league-build)
+👉 [Try it live here](https://xdobbyyy.github.io/random-LeagueofLegends-build-generator/)
 
 ---
 
