@@ -1,0 +1,70 @@
+
+/* Make the page take full height and center content */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url(leaguebgrd.png)
+}
+
+/* The central box */
+.container {
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 400px;
+}
+
+/* Style the button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #007acc;
+}
+
+/* Items layout */
+#items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Image sizes */
+img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.div2 {
+  display: flex;
+  align-items: top;
+  margin-top: 20px;
+}
+
+
+ .role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
